@@ -48,7 +48,9 @@ sars-cov-2_align.fasta
 7. Inspect all columns with gaps. If the column has **more than 2 nucleotides present, DO NOT DELETE the column**. Otherwise, `delete` it.
 8. After trimming everything, delete the reference fasta file, `hCoV-19/Wuhan/WIV04/2019/EPI_ISL_402124`.
 ![footer](footer.png)
-9. Go to `Data` then `Export Alignment` then `FASTA format`. Save the file in the `training folder`, then rename it to `sars-cov-2_align_trim.fasta`. Then press `Enter`.
+---
+![header](header.png)
+9. Go to `Data` then `Export Alignment` then `FASTA format`. Save the file in the `training folder`, then rename it to `sars-cov-2_align_trim.fasta`. Then press `Enter`. \
 10. You can now exit the application.
 
 ### C. Generating and Running the XML file.
@@ -63,6 +65,8 @@ sars-cov-2_align.fasta
 \frac{Substitution\ per\ year}{Length\ of\ the\ sequences}
 ```
 ![nextstrain](nexstrain.png)
+8. Go to the `Priors` tab and select the Tree Prior to be used. For uniformity, select ‘Phylodynamics: Birth Death SIR (serial)’. You can leave as default the other parameters. 
+
 
 
 
