@@ -81,4 +81,4 @@ sars-cov-2_align.fasta
 4. Click `Run` and wait for the annotation to finish.
 5. Open the `FigTree` software. Click `File` and select `Open`. Navigate to the directory where the MCC Tree is located. Select the tree file and click `Open` to load it.
 6. You can annotate the MCC tree by selecting your preferred annotations that can be found at the left side of the panel. The resulting MCC tree can also be exported into an image or a pdf file.
-![footer]([footer.png](https://github.com/IvyMorales12/Training/blob/main/footer.png))
+![footer](https://github.com/IvyMorales12/Training/blob/main/footer.png)
